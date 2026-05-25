@@ -1,0 +1,9 @@
+{
+  "name": "n1bri-logbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "posts": "node scripts/build-posts.js"
+  }
+}

@@ -1,53 +1,43 @@
 # N1BRI Logbook
 
-Personal GitHub Pages deployment for N1BRI Logbook.
+This is the public, read-only logbook and radio blog for N1BRI.
 
-## What is committed
-
-- `docs/`: generated public site and sanitized public log data
-- `content/posts/`: Markdown blog source
-- `data/settings.json`: public profile/site settings
-- `scripts/build-posts.js`: static Markdown post builder
-
-## What stays local
-
-- `data/logbook.adi` is ignored by Git because ADIF exports may contain private fields such as names, email addresses, exact locations, and notes.
-
-## GitHub Pages
-
-Create an empty GitHub repository named:
+Live site:
 
 ```text
-N1BRI-Logbook
+https://n1bri.github.io/N1BRI-Logbook/
 ```
 
-Then connect this local repo:
+The site is generated from a local ADIF log and published through GitHub Pages. Visitors can search and filter contacts, view operating stats, browse the contact map, and read archived posts.
 
-```sh
-git remote add origin git@github.com:N1BRI/N1BRI-Logbook.git
-git push -u origin main
-```
+## Privacy
 
-In GitHub, configure Pages:
-
-```text
-Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
-```
-
-After that, every push to `main` deploys the static site in `docs/`.
-
-## Rebuild posts
-
-```sh
-npm run posts
-```
-
-## Local private log
-
-The private ADIF file stays on this machine:
+The private source log stays local:
 
 ```text
 data/logbook.adi
 ```
 
-It is intentionally ignored by Git. Publish only the generated public files under `docs/`.
+That file is ignored by Git. The public site uses sanitized generated data under:
+
+```text
+docs/data/
+```
+
+## Maintenance
+
+Rebuild blog posts:
+
+```sh
+npm run posts
+```
+
+Deploy changes:
+
+```sh
+git add docs content data/settings.json README.md
+git commit -m "Update logbook site"
+git push
+```
+
+GitHub Actions deploys the `docs/` folder to GitHub Pages after each push to `main`.

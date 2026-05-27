@@ -1,5 +1,27 @@
 [
   {
+    "id": "322b2e99-cedf-4358-b5ea-22783cf181ed",
+    "call": "KE2SM",
+    "call_lc": "ke2sm",
+    "qsoDate": "20260526",
+    "date": "2026-05-26",
+    "timeOn": "0059",
+    "time": "00:59",
+    "band": "40m",
+    "freq": "",
+    "mode": "",
+    "rstSent": "",
+    "rstRcvd": "",
+    "country": "",
+    "state": "",
+    "grid": "",
+    "lat": null,
+    "lon": null,
+    "locationSource": "",
+    "locationConfidence": "",
+    "mapped": false
+  },
+  {
     "id": "29842db6-10f0-46ed-bded-dfd76927422d",
     "call": "KZ8R",
     "call_lc": "kz8r",

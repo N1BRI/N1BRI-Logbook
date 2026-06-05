@@ -1,5 +1,27 @@
 [
   {
+    "id": "b6b08b26-5d99-4f34-bcef-53ce8b031cac",
+    "call": "NA2DX",
+    "call_lc": "na2dx",
+    "qsoDate": "20260604",
+    "date": "2026-06-04",
+    "timeOn": "0123",
+    "time": "01:23",
+    "band": "40m",
+    "freq": "7054.5",
+    "mode": "CW",
+    "rstSent": "599",
+    "rstRcvd": "589",
+    "country": "United States",
+    "state": "NY",
+    "grid": "FN02",
+    "lat": 42.7892791,
+    "lon": -78.7974765,
+    "locationSource": "fcc_lookup",
+    "locationConfidence": "estimated",
+    "mapped": true
+  },
+  {
     "id": "be122120-b100-4fef-ab50-f7733fdf2acd",
     "call": "KP4WK",
     "call_lc": "kp4wk",

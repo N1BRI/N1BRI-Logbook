@@ -1,5 +1,27 @@
 [
   {
+    "id": "c028eabf-8120-4404-abf3-b9bf5354805f",
+    "call": "VE3INE",
+    "call_lc": "ve3ine",
+    "qsoDate": "20260605",
+    "date": "2026-06-05",
+    "timeOn": "0119",
+    "time": "01:19",
+    "band": "30m",
+    "freq": "10.122",
+    "mode": "CW",
+    "rstSent": "559",
+    "rstRcvd": "339",
+    "country": "Canada",
+    "state": "",
+    "grid": "FN03",
+    "lat": 43.7708,
+    "lon": -79.375,
+    "locationSource": "grid",
+    "locationConfidence": "confirmed",
+    "mapped": true
+  },
+  {
     "id": "b6b08b26-5d99-4f34-bcef-53ce8b031cac",
     "call": "NA2DX",
     "call_lc": "na2dx",
